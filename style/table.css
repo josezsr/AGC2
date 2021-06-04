@@ -1,0 +1,57 @@
+
+  tr{
+      width: 90%;
+  }
+  th {
+    width: 150px;
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td thead tr{
+    text-align: center;
+  }
+
+
+  @media screen and (min-width: 700px) and (max-width: 1020px)
+  {
+    tr{
+      width: 100%;
+  }
+  th {
+    width: 100px;
+    letter-spacing: 1px;
+  }
+  
+  TD {
+    width: 100px;
+    letter-spacing: 1px;
+  }
+  
+  tbody td thead th{
+    text-align: center;
+  }
+  
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 690px)
+  {
+    tr{
+      width: 90%;
+  }
+  th {
+    width: 150px;
+    letter-spacing: 2px;
+  }
+  
+  TD {
+    letter-spacing: 1px;
+  }
+  
+  tbody TD thead tr{
+    text-align: center;
+  }
+  } 
