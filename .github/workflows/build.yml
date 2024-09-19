@@ -57,3 +57,5 @@ jobs:
       #   timeout-minutes: 5
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_2 }}
+
+  # Add other scan jobs if you wish to scan more projects in the monorepo   
